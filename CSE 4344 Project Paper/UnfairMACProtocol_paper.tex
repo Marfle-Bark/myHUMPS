@@ -1,0 +1,252 @@
+%
+% This file is an example file demonstrating how to use the sigcomm-alternate class for papers
+% submitted in partial fulfillment for assignments in the Computer Networking and Distributed Systems
+% classes, CSE 4344 and CSE 5344/7344, at Southern Methodist University. The sigcomm-alternate 
+% LaTeX class is used for submissions to CCR. It is a goal of at least CSE 5344/7344 that the students
+% will submit at least paper submitted for an assignment to CCR for publication; therefore, this example
+% file conforms to the CCR submission guidelines.
+%
+% Author: Cameron A. Keith 
+% Creation Date: 8 October 2014
+% Version: 0.1
+%
+
+\documentclass{sigcomm-alternate}
+\usepackage{cite}
+%---- The front matter contains packages being used, definitions, etc. including the title and author
+%---- information for this work.
+
+%---- Title
+% The title of this work. For course assignments, the title must include the course number. 
+\title{
+Biased Medium Access Control: \\
+Can a Biased Protocol be more Effecient than a Fair one?\\
+{\large CSE4344}
+}
+
+%---- Authors
+% The authors are placed all within a single LaTeX author box. This is a CCR guideline that is not true of
+% all ACM publications.
+\numberofauthors{3}
+
+\author{
+% Each author is identified by name, simple affiliation, and email address. The command \alignauthor (no
+% curly braces required) must precede each author name. The command \affaddr (curly braces required) 
+% must precede each line in the affiliation. The command \email{ } (curly braces required) must by used to 
+% identify the email address for each author. When more than three authors exist, a tabular environment will
+% need to be used to align the authors across multiple lines.
+\alignauthor Cameron A. Keith\\
+\affaddr{Computer Science and Engineering Department\\
+ 	Southern Methodist University\\
+	Dallas, Texas USA}\\
+\email{ckeith@smu.edu}
+%
+\alignauthor Anna A. Carroll\\
+\affaddr{Computer Science and Engineering Department\\
+ 	Southern Methodist University\\
+	Dallas, Texas USA}\\
+\email{aacarroll@smu.edu}
+%
+\alignauthor Dylan C. Fansler\\
+\affaddr{Computer Science and Engineering Department\\
+ 	Southern Methodist University\\
+	Dallas, Texas USA}\\
+\email{dfansler@smu.edu}
+%
+\and
+\alignauthor Ethan Busbee\\
+\affaddr{Computer Science and Engineering Department\\
+ 	Southern Methodist University\\
+	Dallas, Texas USA}\\
+\email{ebusbee@smu.edu}
+%\and  % use '\and' if you need 'another row' of author names
+%------ Uncomment the following for editorial submissions to CCR
+%\begin{tabular}{c}
+%{\normalsize This article is an editorial note submitted to CCR. It has NOT been peer reviewed.}\\
+%{\normalsize The authors take full responsibility for this article's
+%technical content. Comments can be posted through CCR Online.}
+%\end{tabular}
+%}
+}
+
+%--- Begin the Document
+\begin{document}
+
+%---- Create the title
+\maketitle
+
+%---- Abstract
+% The abstract is a 100 word summary of the problem addressed in the paper, the basic thesis and/or 
+% the contributions of the paper, and the primary results and conclusions presented in the paper.
+\begin{abstract}
+Current Medium Access Control, MAC, Protocols are based on the premise that every device 
+has an equal probability to transmit to their data across a network. This method 
+attempts to reduce the collisions in the network by having all users who want to send 
+a packet wait a random time interval between 0 and a minimum starting back-off,
+ and increasing a particular senders minimun back-off each time their packet does not
+ sent. This paper attempts to discover if a Wireless MAC protocol based off of using the 
+current frame number as the upper bound of the random number function in an attempt to 
+see if a biased priority can improve the average complete time of stream transmittion time accross a 
+particuar network.
+\end{abstract}
+
+%----Main Body of the Paper
+
+\section{Introduction}
+{
+Current MAC protocols for 802.11 use a variation of the ALOHA Protocol known as p-persistant CSMA/CA, or Carrier Sense Multiple Access with Collision Avoidance. In this protocol, once a node has assembled a message, it checks to see if the channel is idle. If not, the node waits a random backoff time before checking the channel again. Once the node is able to send through the channel, it transmits a RTS (request to send) frame to the destination node, and waits for a CTS (clear to send) frame from the destination node. If the CTS frame is not received, then the node waits a random backoff time and attempts to send again. If the CTS frame is received, the node transmits its message to its destination. With this approach, all frames are given an equal chance to transmit. However, in this protocol, the packet delay tends to increase with the amount of stations (or nodes) on the network. Instead of using a fair approach with respect to each device on the network, we plan to explore the possibility of using a biased treatment of frames in the networks to increase the overall efficiency of the network.\\
+
+Most work on biased MAC protocols is focused on either acting unfairly in order to increase one node's network performance at the cost of the performance of the other nodes on the network, or is done on keeping a node acting unfairly from destroying the network and discouraging that node from acting unfairly any more. It is our hypothesis that a biased protocol can be created that will actually increase the performance of the network. We plan to do this by examining different ways of prioritizing network traffic according to packet size, type, or even the size of the file to be transmitted. 
+}
+
+\section{Background}
+{
+So far, very little work has been done on the optimization of unfair Medium Access Protocols; most work has been done on solving the unfair MAC problem while reducing collisions. For wireless networks, a principle problem is the “hidden terminal problem”. In a wired network, it is possible to sense when another node is being sent, and a collision will occur \cite{869217}. In a wireless network, however, this cannot be done, resulting in the need for an alternative method of handling collisions \cite{6574961}. Thus, wireless MAC protocols like Slotted-Aloha were created.  In the Slotted Aloha Protocol, a node can only be sent at the beginning of a time slot \cite{5340799}. This ensures that one node can finish sending before another one is sent, reducing the number of collisions.  Under a network with a light load, this approach has a low chance of collision. However, collisions can still occur if two nodes are sent in the same timeslot. Under heavy loads, the probability that a node will be sent in the same timeslot as another node will increase. Most research into this problem is based on reducing collisions while keeping the distribution of sent nodes fair.  An improvement on the Slotted Aloha Protocol is the Frameless ALOHA protocol, which uses a random access scheme to decide which nodes should be sent in which spot \cite{6336861}. Another attempt at improving the Slotted-ALOHA protocol is the Generalized Slotted ALOHA protocol, in which nodes are sent according to their probability of being transmitted successfully. However, an issue with this protocol is that if every node is attempting to maximize its own transmission rate, then the network can jam. \cite{4548143 }.  The Multiple Access with Collision Avoidance for Wireless (MACAW) protocol is one attempt at improving on the Slotted-Aloha Protocol and solving the hidden terminal and unfair MAC problems. MACAW introduces “per stream” fairness, in which every stream sent on the network is treated equally. This contrasts our proposal in that we will attempt to create an optimal MAC protocol by prioritizing certain streams, thus creating an unfair MAC protocol that optimizes the network.\\
+
+A similar task to creating an unfair MAC protocol that everyone follows is how can a network detect when a single user, or a small group of users is being unfair and the process of handling them. With this protocol a sender transmits an RTS (Request to Send) after waiting for a randomly selected number of slots in the range [0; CW].After the initial transmittion between hosts, the recieving host sends with their acknowledgement a random value that the sender then uses as the back off counter for each subsiquent transmittion during the stream. \cite{Kyasanur} With this protocol, if a recieving node recieves a packet before the approiate number of frames has passed then the sending host is not obeying the Protocol and can then be handled accordingly.
+}
+
+\section{Research Plan}
+{
+The plan for determining the an optimal method of creating a MAC protocol that has a bias towards certain packets
+is to first create a succicent list of possible ways that a system can prefer one type of packet or packet stream over another.
+ The list of possible ways a system can prefer a packet/stream from one source to a different source will be determinded by
+ the various ways that exists MAC Protocols currently divide network access fairly between nodes, take ths information and 
+determine how someone can unfairly divide the network. With this idea, the next step is to determine how to gauge the 
+efficiency of this method compared to the fair method from which it was derived from as well as how it can be compared to
+ other methods that differ from it. Once this has been done for the list of possible biases the next step is to create a paper
+ representation of each method and run several short sample runs of the different methods to see how each run in comparison 
+to the others. The top methods, exact number depends on how many different ideas are originally tested, will be translated
+ in to a simulation of an actual network environment with a multitude of users and the results of each simulation compared to 
+each other to find which method based off of the choosen effeciency ranking is most optimal to use. \\
+\indent The purpose of multiple possible ideas being moved forward in each phase of testing allows for a quick change in 
+focus later in development as you no longer have to go back and spend time in the research phase becuase you move forward
+ in each step of the process with the best of the last process to eventually reduce the number of testing Protocols to a single 
+one which has been determined to be the most optimal by a set of standards which were also formulated during testing.
+ This also allows a high degree of flexability with the project as the requirements that the different MAC protocols are being 
+judged against can be modified to better reflect normal use of the Network, as well adapt as deeper knowledge of  MAC Protocols.
+}
+
+\section{Work Remaining/Problems Encountered}
+{
+Work remaining: Finish the base case Network simulation based on the current Wireless MAC protocol and establish the goal metric that the frame number based delay Protocol needs to match 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+\bibliographystyle{plain}
+\bibliography{unfairMACPaper}  % unfairMACPaper_bib.bib is the name of the Bibliography in this case
+
+\balancecolumns
+%---- End the Document
+\end{document}
+
+
+
+
