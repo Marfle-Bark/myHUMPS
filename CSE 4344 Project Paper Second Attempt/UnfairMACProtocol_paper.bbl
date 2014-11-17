@@ -12,6 +12,13 @@ Ajay Chandra~V. Gummalla and John~O. Limb.
 \newblock {\em Communications Surveys Tutorials, IEEE}, 3(2):2--15, Second
   2000.
 
+\bibitem{DDoS}
+V.~Gupta, S.~Krishnamurthy, and Michalis Faloutsos.
+\newblock Denial of service attacks at the mac layer in wireless ad hoc
+  networks.
+\newblock In {\em MILCOM 2002. Proceedings}, volume~2, pages 1118--1123 vol.2,
+  Oct 2002.
+
 \bibitem{6574961}
 Peijian Ju, Wei Song, and Dizhi Zhou.
 \newblock Survey on cooperative medium access control protocols.
