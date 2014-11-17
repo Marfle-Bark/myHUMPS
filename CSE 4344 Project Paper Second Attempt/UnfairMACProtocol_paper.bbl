@@ -17,10 +17,10 @@ Peijian Ju, Wei Song, and Dizhi Zhou.
 \newblock Survey on cooperative medium access control protocols.
 \newblock {\em Communications, IET}, 7(9):893--902, June 2013.
 
-\bibitem{Kyasanur}
-Pradeep Kyasanur and Nitin~H. Vaidya.
-\newblock Selfish mac layer misbehavior in wireless networks.
-\newblock {\em IEEE Transactions on Mobile Computing}, 4(5):502--516, 2005.
+\bibitem{FairScheduling}
+Songwu Lu, Vaduvur Bharghavan, and Rayadurgam Srikant.
+\newblock Fair scheduling in wireless packet networks.
+\newblock {\em SIGCOMM Comput. Commun. Rev.}, 27(4):63--74, October 1997.
 
 \bibitem{4548143}
 R.T.B. Ma, V.~Misra, and D.~Rubenstein.
