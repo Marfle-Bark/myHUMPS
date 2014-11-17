@@ -17,6 +17,12 @@ Peijian Ju, Wei Song, and Dizhi Zhou.
 \newblock Survey on cooperative medium access control protocols.
 \newblock {\em Communications, IET}, 7(9):893--902, June 2013.
 
+\bibitem{Kyasanur}
+P.~Kyasanur and N.F. Vaidya.
+\newblock Detection and handling of mac layer misbehavior in wireless networks.
+\newblock In {\em Dependable Systems and Networks, 2003. Proceedings. 2003
+  International Conference on}, pages 173--182, June 2003.
+
 \bibitem{FairScheduling}
 Songwu Lu, Vaduvur Bharghavan, and Rayadurgam Srikant.
 \newblock Fair scheduling in wireless packet networks.

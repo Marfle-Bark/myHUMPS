@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.11.11)  11 NOV 2014 02:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.11.11)  17 NOV 2014 00:02
 entering extended mode
-**C:/Users/Ellyonia/Documents/CSE*4344*Project*Paper/unfairMACPaper.bib
-("C:/Users/Ellyonia/Documents/CSE 4344 Project Paper/unfairMACPaper.bib"
+**C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE*4344*Project*Paper*Second*Atte
+mpt/unfairMACPaperbib.bib
+
+("C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE 4344 Project Paper Second Atte
+mpt/unfairMACPaperbib.bib"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ‹ in font cmr10!
@@ -193,7 +196,7 @@ ss sen-sor net-works, doi=10.1109/MOBHOC.2000.869217, |
 .etc.
 
 
-Overfull \hbox (3.42664pt too wide) in paragraph at lines 53--66
+Overfull \hbox (3.42664pt too wide) in paragraph at lines 53--65
 []\tenrm @ARTICLE5340799, au-thor=Gummalla, Ajay Chan-dra V. and Limb, John O.,
  jour-nal=Communications|
 
@@ -205,11 +208,21 @@ Overfull \hbox (3.42664pt too wide) in paragraph at lines 53--66
 .\kern-0.83334
 .etc.
 
-)
-*
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.71  issue_
+            date = {Oct. 1997},
+? 
 ! Emergency stop.
-<*> ...s/CSE*4344*Project*Paper/unfairMACPaper.bib
-                                                  
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.71  issue_
+            date = {Oct. 1997},
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!
