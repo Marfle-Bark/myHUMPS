@@ -8,7 +8,7 @@
 %
 % Author: Cameron A. Keith 
 % Creation Date: 8 October 2014
-% Version: 0.1
+% Version: 0.3
 %
 
 \documentclass{sigcomm-alternate}
@@ -18,10 +18,9 @@
 
 %---- Title
 % The title of this work. For course assignments, the title must include the course number. 
-\title{
-Biased Medium Access Control: \\
-Can a Biased Protocol be more Effecient than a Fair one?\\
-{\large CSE4344}
+\title
+{
+Analysis of a Stream Size Biased Medim Access Control Protocol
 }
 
 %---- Authors
@@ -88,6 +87,7 @@ Can a Biased Protocol be more Effecient than a Fair one?\\
 %current frame number as the upper bound of the random number function in an attempt to 
 %see if a biased priority can improve the average complete time of stream transmittion time accross a 
 %particuar network.
+This paper looks to improve theoverall network effiency by using a MAC protocol that biases towards Streams of shorter sizes by basing the initial back off of the packet transmittion off the current frame number being sent instead of a system declared minimum initial value. This approach should improve the average time to transmit data from all nodes on the network.
 \end{abstract}
 
 %----Main Body of the Paper
@@ -105,7 +105,7 @@ Can a Biased Protocol be more Effecient than a Fair one?\\
 }
 
 \bibliographystyle{plain}
-\bibliography{unfairMACPaper}  % unfairMACPaper_bib.bib is the name of the Bibliography in this case
+\bibliography{unfairMACPape_bib}  % unfairMACPaper_bib.bib is the name of the Bibliography in this case
 
 \balancecolumns
 %---- End the Document
