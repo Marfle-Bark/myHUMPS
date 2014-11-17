@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{869217}
+B.~Bensaou, Yu~Wang, and Chi~Chung Ko.
+\newblock Fair medium access in 802.11 based wireless ad-hoc networks.
+\newblock In {\em Mobile and Ad Hoc Networking and Computing, 2000. MobiHOC.
+  2000 First Annual Workshop on}, pages 99--106, 2000.
+
+\bibitem{5340799}
+Ajay Chandra~V. Gummalla and John~O. Limb.
+\newblock Wireless medium access control protocols.
+\newblock {\em Communications Surveys Tutorials, IEEE}, 3(2):2--15, Second
+  2000.
+
+\bibitem{6574961}
+Peijian Ju, Wei Song, and Dizhi Zhou.
+\newblock Survey on cooperative medium access control protocols.
+\newblock {\em Communications, IET}, 7(9):893--902, June 2013.
+
+\bibitem{4548143}
+R.T.B. Ma, V.~Misra, and D.~Rubenstein.
+\newblock An analysis of generalized slotted-aloha protocols.
+\newblock {\em Networking, IEEE/ACM Transactions on}, 17(3):936--949, June
+  2009.
+
+\bibitem{6336861}
+C.~Stefanovic, P.~Popovski, and D.~Vukobratovic.
+\newblock Frameless aloha protocol for wireless networks.
+\newblock {\em Communications Letters, IEEE}, 16(12):2087--2090, December 2012.
+
+\end{thebibliography}
