@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  17 NOV 2014 00:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  17 NOV 2014 00:35
 entering extended mode
 **C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE*4344*Project*Paper*Second*Atte
 mpt/UnfairMACProtocol_paper.tex
@@ -228,10 +228,6 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 75.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ú in font cmr9!
@@ -245,17 +241,20 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Overfull \hbox (8.59897pt too wide) in paragraph at lines 109--112
+\OT1/cmr/m/n/9 de-grade the net-work through-put for other, well-behaved nodes.
 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
-mpt\UnfairMACProtocol_paper.bbl" [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdf
-tex.map}
-
-
-]) [2
+mpt\UnfairMACProtocol_paper.bbl") [2
 
 ]
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
@@ -263,18 +262,18 @@ mpt\UnfairMACProtocol_paper.aux") )
 Here is how much of TeX's memory you used:
  2231 strings out of 493921
  27832 string characters out of 3147273
- 88006 words of memory out of 3000000
+ 89006 words of memory out of 3000000
  5508 multiletter control sequences out of 15000+200000
  39881 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,10n,28p,2309b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,28p,2307b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
 /fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmb8a.pfb>
-Output written on UnfairMACProtocol_paper.pdf (2 pages, 73726 bytes).
+Output written on UnfairMACProtocol_paper.pdf (2 pages, 75077 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
