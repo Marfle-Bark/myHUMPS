@@ -12,13 +12,6 @@ Ajay Chandra~V. Gummalla and John~O. Limb.
 \newblock {\em Communications Surveys Tutorials, IEEE}, 3(2):2--15, Second
   2000.
 
-\bibitem{DDoS}
-V.~Gupta, S.~Krishnamurthy, and Michalis Faloutsos.
-\newblock Denial of service attacks at the mac layer in wireless ad hoc
-  networks.
-\newblock In {\em MILCOM 2002. Proceedings}, volume~2, pages 1118--1123 vol.2,
-  Oct 2002.
-
 \bibitem{6574961}
 Peijian Ju, Wei Song, and Dizhi Zhou.
 \newblock Survey on cooperative medium access control protocols.
@@ -30,16 +23,17 @@ P.~Kyasanur and N.F. Vaidya.
 \newblock In {\em Dependable Systems and Networks, 2003. Proceedings. 2003
   International Conference on}, pages 173--182, June 2003.
 
-\bibitem{FairScheduling}
-Songwu Lu, Vaduvur Bharghavan, and Rayadurgam Srikant.
-\newblock Fair scheduling in wireless packet networks.
-\newblock {\em SIGCOMM Comput. Commun. Rev.}, 27(4):63--74, October 1997.
-
 \bibitem{4548143}
 R.T.B. Ma, V.~Misra, and D.~Rubenstein.
 \newblock An analysis of generalized slotted-aloha protocols.
 \newblock {\em Networking, IEEE/ACM Transactions on}, 17(3):936--949, June
   2009.
+
+\bibitem{schrage}
+Linus~E. Schrage and Louis~W. Miller.
+\newblock The queue m/g/1 with the shortest remaining processing time
+  discipline.
+\newblock {\em Operations Research}, 14(4):670--684, 1966.
 
 \bibitem{6336861}
 C.~Stefanovic, P.~Popovski, and D.~Vukobratovic.
