@@ -157,6 +157,8 @@ So far, very little work has been done on the optimization of unfair Medium Acce
 
 
 % THIS PART BELONGS IN THE RELATED WORK SECTION
+In research done by \cite{Lucani} focused on the objective of improving the throughput of Wireless LAN by attempting to find an alterntive MAC protocol to the current protocol. Their researched focused on the creation of a FAIR  MAC algorithm \cite{Lucani} that gave all nodes in a network equal priority for accessing the network. They determined that their algorithm worked to increase the throughput of a mixed data network, with VoIP and normal data, versus the current MAC algorithm. They've choosen a different path to achieve an outcome similar to this paper which suggests that there can be other ways to improve the throughput of a WiFi MAC protocol.
+
 Most research done on unfair MAC protocols has been conducted on how to detect and prevent unfair behavior from a node on the network. Some has focused on merely detecting and blocking the misbehaving node, while others have suggested implementing a punishment of sorts on the misbehaving nodes. Ways that nodes can misbehave in order to increase their own performance is to refuse to forward packets in order to save energy, or to select a smaller backoff in order to increase throughput for their own traffic. These misbehaving nodes can seriously degrade the network throughput for other, well-behaved nodes. \cite{Kyasanur}.
 
 The most research has been done on detecting the manipulation of the random back off\cite{Suresh}, detecting if a node is cheating by altering the delay period between SIFS and DIFS\cite{Domino}. This approach only benefits a single user as they crowd out other users as they maximize their bandwidth \cite{Domino}. As a result it also decreases the throughput of the network as other user's data is put on hold they think the communication channel is always busy. 
@@ -173,11 +175,13 @@ Our purpose, however, is to prove that implementing an unfair protocol where net
 
 A basic simulation was used to analyse and compare the results from the standard fair WiFi protocol versus the previously mentioned biased protocols. The protocols were tested with a network consisting of **** end nodes with the nodes sending data following the distribution of data according to\cite{Douceur}. The standard WiFi protocol is used as the basis of comparison that the other protocols are measured against as a protocol that does not doesn't at least match the throughput of WiFi's current protocol dos not meet the requirements of improving the throughput the network. In the simulation, it is assumed that all end nodes on the network are following the same protocol, everynode behaves in the same manner as other nodes.
 
+
+
 \section{Conclusions}
 \label{section:conclusions}
 
 
-The distribution of files sizes that were sent over the simulated network was based on two assumptions: first being the files were representative of a commercial network and second that the distribution of file sizes has not changed dramatically since 1999 when the original distribution was calculated \cite{Douceur}.
+The distribution of files sizes that were sent over the simulated network was based on two assumptions: first being the files were representative of a commercial network and second that the distribution of file sizes has not changed dramatically since 1999 when the original distribution was calculated \cite{Douceur}. 
 
 
 
