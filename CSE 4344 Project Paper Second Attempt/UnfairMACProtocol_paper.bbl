@@ -1,10 +1,52 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{869217}
+B.~Bensaou, Yu~Wang, and Chi~Chung Ko.
+\newblock Fair medium access in 802.11 based wireless ad-hoc networks.
+\newblock In {\em Mobile and Ad Hoc Networking and Computing, 2000. MobiHOC.
+  2000 First Annual Workshop on}, pages 99--106, 2000.
+
+\bibitem{Douceur}
+John~R. Douceur and William~J. Bolosky.
+\newblock A large-scale study of file-system contents.
+\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 27(1):59--70, May 1999.
+
+\bibitem{5340799}
+Ajay Chandra~V. Gummalla and John~O. Limb.
+\newblock Wireless medium access control protocols.
+\newblock {\em Communications Surveys Tutorials, IEEE}, 3(2):2--15, Second
+  2000.
+
+\bibitem{6574961}
+Peijian Ju, Wei Song, and Dizhi Zhou.
+\newblock Survey on cooperative medium access control protocols.
+\newblock {\em Communications, IET}, 7(9):893--902, June 2013.
 
 \bibitem{Kyasanur}
 P.~Kyasanur and N.F. Vaidya.
 \newblock Detection and handling of mac layer misbehavior in wireless networks.
 \newblock In {\em Dependable Systems and Networks, 2003. Proceedings. 2003
   International Conference on}, pages 173--182, June 2003.
+
+\bibitem{Lucani}
+D.E. Lucani, R.E. Badra, and C.M. Bianchi.
+\newblock Increasing voip capacity on wifi networks through the use of the fair
+  algorithm for mac.
+\newblock In {\em Vehicular Technology Conference, 2007. VTC-2007 Fall. 2007
+  IEEE 66th}, pages 1684--1688, Sept 2007.
+
+\bibitem{4548143}
+R.T.B. Ma, V.~Misra, and D.~Rubenstein.
+\newblock An analysis of generalized slotted-aloha protocols.
+\newblock {\em Networking, IEEE/ACM Transactions on}, 17(3):936--949, June
+  2009.
+
+\bibitem{Domino}
+Maxim Raya, Jean-Pierre Hubaux, and Imad Aad.
+\newblock Domino: A system to detect greedy behavior in ieee 802.11 hotspots.
+\newblock In {\em Proceedings of the 2Nd International Conference on Mobile
+  Systems, Applications, and Services}, MobiSys '04, pages 84--97, New York,
+  NY, USA, 2004. ACM.
 
 \bibitem{schrage}
 Linus~E. Schrage and Louis~W. Miller.
@@ -18,5 +60,10 @@ M.~Shanthi and S.~Suresh.
   sampling of network monitoring.
 \newblock {\em International Journal of Innovative Research in Science,
   Engineering and Technology}, 3(1), Feb 2014.
+
+\bibitem{6336861}
+C.~Stefanovic, P.~Popovski, and D.~Vukobratovic.
+\newblock Frameless aloha protocol for wireless networks.
+\newblock {\em Communications Letters, IEEE}, 16(12):2087--2090, December 2012.
 
 \end{thebibliography}
