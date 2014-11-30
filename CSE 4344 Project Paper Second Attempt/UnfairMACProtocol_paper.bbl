@@ -1,33 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{869217}
-B.~Bensaou, Yu~Wang, and Chi~Chung Ko.
-\newblock Fair medium access in 802.11 based wireless ad-hoc networks.
-\newblock In {\em Mobile and Ad Hoc Networking and Computing, 2000. MobiHOC.
-  2000 First Annual Workshop on}, pages 99--106, 2000.
-
-\bibitem{5340799}
-Ajay Chandra~V. Gummalla and John~O. Limb.
-\newblock Wireless medium access control protocols.
-\newblock {\em Communications Surveys Tutorials, IEEE}, 3(2):2--15, Second
-  2000.
-
-\bibitem{6574961}
-Peijian Ju, Wei Song, and Dizhi Zhou.
-\newblock Survey on cooperative medium access control protocols.
-\newblock {\em Communications, IET}, 7(9):893--902, June 2013.
-
 \bibitem{Kyasanur}
 P.~Kyasanur and N.F. Vaidya.
 \newblock Detection and handling of mac layer misbehavior in wireless networks.
 \newblock In {\em Dependable Systems and Networks, 2003. Proceedings. 2003
   International Conference on}, pages 173--182, June 2003.
-
-\bibitem{4548143}
-R.T.B. Ma, V.~Misra, and D.~Rubenstein.
-\newblock An analysis of generalized slotted-aloha protocols.
-\newblock {\em Networking, IEEE/ACM Transactions on}, 17(3):936--949, June
-  2009.
 
 \bibitem{schrage}
 Linus~E. Schrage and Louis~W. Miller.
@@ -35,9 +12,11 @@ Linus~E. Schrage and Louis~W. Miller.
   discipline.
 \newblock {\em Operations Research}, 14(4):670--684, 1966.
 
-\bibitem{6336861}
-C.~Stefanovic, P.~Popovski, and D.~Vukobratovic.
-\newblock Frameless aloha protocol for wireless networks.
-\newblock {\em Communications Letters, IEEE}, 16(12):2087--2090, December 2012.
+\bibitem{Suresh}
+M.~Shanthi and S.~Suresh.
+\newblock Detecting mac layer misbehavior in wifi networks by co-ordinated
+  sampling of network monitoring.
+\newblock {\em International Journal of Innovative Research in Science,
+  Engineering and Technology}, 3(1), Feb 2014.
 
 \end{thebibliography}
