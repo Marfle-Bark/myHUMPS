@@ -6,10 +6,21 @@ B.~Bensaou, Yu~Wang, and Chi~Chung Ko.
 \newblock In {\em Mobile and Ad Hoc Networking and Computing, 2000. MobiHOC.
   2000 First Annual Workshop on}, pages 99--106, 2000.
 
+\bibitem{demers}
+Alan Demers, Srinivasan Keshav, and Scott Shenker.
+\newblock Analysis and simulation of a fair queueing algorithm.
+\newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~19, pages
+  1--12. ACM, 1989.
+
 \bibitem{Douceur}
 John~R. Douceur and William~J. Bolosky.
 \newblock A large-scale study of file-system contents.
-\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 27(1):59--70, May 1999.
+\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 27(1):59--70, may 1999.
+
+\bibitem{Gonzalez}
+Mario~J. Gonzalez, Jr.
+\newblock Deterministic processor scheduling.
+\newblock {\em ACM Comput. Surv.}, 9(3):173--204, sep 1977.
 
 \bibitem{5340799}
 Ajay Chandra~V. Gummalla and John~O. Limb.
@@ -40,6 +51,12 @@ R.T.B. Ma, V.~Misra, and D.~Rubenstein.
 \newblock An analysis of generalized slotted-aloha protocols.
 \newblock {\em Networking, IEEE/ACM Transactions on}, 17(3):936--949, June
   2009.
+
+\bibitem{Parek}
+Abhay~K. Parekh and Robert~G. Gallagher.
+\newblock A generalized processor sharing approach to flow control in
+  integrated services networks: The multiple node case.
+\newblock {\em IEEE/ACM Trans. Netw.}, 2(2):137--150, apr 1994.
 
 \bibitem{Domino}
 Maxim Raya, Jean-Pierre Hubaux, and Imad Aad.

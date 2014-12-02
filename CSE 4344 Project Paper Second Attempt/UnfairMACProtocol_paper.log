@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  30 NOV 2014 16:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  1 DEC 2014 20:37
 entering extended mode
 **C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE*4344*Project*Paper*Second*Atte
 mpt/UnfairMACProtocol_paper.tex
@@ -239,9 +239,9 @@ Overfull \hbox (1.71916pt too wide) in paragraph at lines 97--100
  []
 
 
-Overfull \hbox (4.73788pt too wide) in paragraph at lines 127--128
-\OT1/cmr/m/n/9 net-work have the equal prob-a-bil-ity to in-ter-act with the ro
-uter.
+Overfull \hbox (1.65111pt too wide) in paragraph at lines 127--128
+\OT1/cmr/m/n/9 net-work have an equal prob-a-bil-ity to in-ter-act with the rou
+ter.
  []
 
 
@@ -250,18 +250,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2]
+]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
-mpt\UnfairMACProtocol_paper.bbl") [3
+mpt\UnfairMACProtocol_paper.bbl" [3]) [4
 
 ]
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
 mpt\UnfairMACProtocol_paper.aux") ) 
 Here is how much of TeX's memory you used:
- 2239 strings out of 493921
- 27938 string characters out of 3147273
- 90037 words of memory out of 3000000
- 5516 multiletter control sequences out of 15000+200000
+ 2242 strings out of 493921
+ 27963 string characters out of 3147273
+ 100049 words of memory out of 3000000
+ 5519 multiletter control sequences out of 15000+200000
  39881 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,10n,28p,2240b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -271,9 +287,9 @@ r9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmb8a.pfb>
-Output written on UnfairMACProtocol_paper.pdf (3 pages, 83569 bytes).
+Output written on UnfairMACProtocol_paper.pdf (4 pages, 89663 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
