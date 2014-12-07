@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Unfair}
+Nikhil Bansal and Mor Harchol-Balter.
+\newblock Analysis of srpt scheduling: Investigating unfairness.
+\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 29(1):279--290, June 2001.
+
 \bibitem{869217}
 B.~Bensaou, Yu~Wang, and Chi~Chung Ko.
 \newblock Fair medium access in 802.11 based wireless ad-hoc networks.
@@ -11,11 +16,6 @@ Alan Demers, Srinivasan Keshav, and Scott Shenker.
 \newblock Analysis and simulation of a fair queueing algorithm.
 \newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~19, pages
   1--12. ACM, 1989.
-
-\bibitem{Douceur}
-John~R. Douceur and William~J. Bolosky.
-\newblock A large-scale study of file-system contents.
-\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 27(1):59--70, may 1999.
 
 \bibitem{Gonzalez}
 Mario~J. Gonzalez, Jr.
