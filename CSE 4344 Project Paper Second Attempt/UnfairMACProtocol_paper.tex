@@ -14,6 +14,7 @@
 \documentclass{sigcomm-alternate}
 \usepackage{cite}
 \usepackage{textgreek}
+\usepackage{fixltx2e}
 %---- The front matter contains packages being used, definitions, etc. including the title and author
 %---- information for this work.
 
@@ -197,7 +198,7 @@ These assumptions allow us to look more directly to compare current WiFi protoco
 Our first protocol is based purely on SRPT. It is assumed that the size of the stream is known, and therefore smaller streams can be prioritized over larger streams. The random back-off that determines when frames are sent is set depending on the number of remaining frames the stream has left to send. In the case that we cannot tell the stream sizes, a variation that bases the random back-off on the frame number being sent instead of the remaining stream size. Our third variation on the SRPT Protocol will be called Dynamic Backoff. In Dynamic Backoff, a node sends at a standard rate, periodically checking the network traffic level. If the traffic level rises to a certain level, the node will check its own rate and slow down its transmission rate based on its traffic levels. 
 
 
-To implement SRPT, we must define priority levels similar to what was done in \cite{Unfair}. Each node will store its traffic in 16 priority queues. They are numbered 0 to 15, with 0 having the highest priority frames and 15 having the lowest priority frames. The priority queues are then emptied into the network in numerical order. As in, priority queue i will not send its traffic until priority queue i-1 and all the queues before it are empty. The way traffic is prioritized is according to the heavy-tailed workloads mentioned earlier. This means that traffic is divided in a way such that for all queues i_{1} < i_{2} < ... < i_{16}, i_{1} contains 50\% of streams are smaller than what is contained in i_{2}. Inversely, i_{15} needs to contain the largest .5\% to 1\% of streams to be sent by the node. 
+To implement SRPT, we must define priority levels similar to what was done in \cite{Unfair}. Each node will store its traffic in 16 priority queues. They are numbered 0 to 15, with 0 having the highest priority frames and 15 having the lowest priority frames. The priority queues are then emptied into the network in numerical order. As in, priority queue i will not send its traffic until priority queue i-1 and all the queues before it are empty. The way traffic is prioritized is according to the heavy-tailed workloads mentioned earlier. This means that traffic is divided in a way such that for all queues i\textsubscript{1}\ \textless \ i\textsubscript{2}\ \textless \  ... \textless \  i\textsubscript{16}, i\textsubscript{1} contains 50\% of streams are smaller than what is contained in i\textsubscript{2}. Inversely, i\textsubscript{15}\ needs to contain the largest .5\% to 1\% of streams to be sent by the node. 
 
 
 \section{Conclusions}
