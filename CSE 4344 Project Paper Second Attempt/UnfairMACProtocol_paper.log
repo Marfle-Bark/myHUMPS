@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  8 DEC 2014 22:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.8)  8 DEC 2014 22:59
 entering extended mode
 **C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE*4344*Project*Paper*Second*Atte
 mpt/UnfairMACProtocol_paper.tex
@@ -295,26 +295,21 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 203.
 
 
-LaTeX Warning: Command \textalpha invalid in math mode on input line 206.
+LaTeX Warning: Command \textalpha invalid in math mode on input line 205.
 
 
-Overfull \hbox (11.18274pt too wide) in paragraph at lines 206--207
-[]\OT1/cmr/m/n/9 SRPT im-proves the through-put of trans-mis-sions with smaller
-
- []
-
-
-LaTeX Warning: Command \textalpha invalid in math mode on input line 208.
-
-
-Overfull \hbox (11.18274pt too wide) in paragraph at lines 208--209
+Overfull \hbox (11.18274pt too wide) in paragraph at lines 205--206
 []\OT1/cmr/m/n/9 SRPT im-proves the through-put of trans-mis-sions with smaller
 
  []
 
 
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
-mpt\UnfairMACProtocol_paper.bbl" [4]) [5
+mpt\UnfairMACProtocol_paper.bbl"
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [4])
+[5
 
 ]
 ("C:\Users\Ellyonia\Documents\GitHub\myHUMPS\CSE 4344 Project Paper Second Atte
@@ -338,7 +333,7 @@ onts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 cbgreek/grmn0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
-Output written on UnfairMACProtocol_paper.pdf (5 pages, 142296 bytes).
+Output written on UnfairMACProtocol_paper.pdf (5 pages, 142741 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
