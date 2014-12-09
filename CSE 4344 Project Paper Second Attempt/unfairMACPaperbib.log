@@ -1,44 +1,26 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.11.11)  29 NOV 2014 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.11.11)  8 DEC 2014 17:34
 entering extended mode
 **C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE*4344*Project*Paper*Second*Atte
 mpt/unfairMACPaperbib.bib
 
 ("C:/Users/Ellyonia/Documents/GitHub/myHUMPS/CSE 4344 Project Paper Second Atte
 mpt/unfairMACPaperbib.bib"
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ‹ in font cmr10!
-
-Overfull \hbox (21.50879pt too wide) in paragraph at lines 15--27
-\tenrm IEEE/ACM Trans-ac-tions on, ti-tle=An Anal-y-sis of Gen-er-al-ized Slott
-ed-Aloha Pro-to-cols, year=2009, month=June,|
+Overfull \hbox (22.6627pt too wide) in paragraph at lines 26--39
+[]\tenrm @article4548143, Au-thor = Ma, R.T.B. and Misra, V. and Ruben-stein, D
+., Doi = 10.1109/TNET.2008.925633,|
 
 \hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm I
-.\tenrm E
-.\tenrm E
-.\tenrm E
-.\tenrm /
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
 .etc.
 
 
-Overfull \hbox (57.35722pt too wide) in paragraph at lines 15--27
-\tenrm vol-ume=17, num-ber=3, pages=936-949, key-words=Markov pro-cesses;access
- pro-to-cols;channel al-lo-ca-tion;probability;MAC|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm v
-.\kern-0.27779
-.\tenrm o
-.\tenrm l
-.\discretionary
-..\tenrm -
-.etc.
-
-
-Overfull \hbox (12.38487pt too wide) in paragraph at lines 15--27
-\tenrm pro-to-cols;Markov mod-els;channel uti-liza-tion;generalized slotted-Alo
-ha pro-to-cols;medium ac-cess con-trol;multiple|
+Overfull \hbox (6.71716pt too wide) in paragraph at lines 26--39
+\tenrm pro-to-cols;channel al-lo-ca-tion;probability;MAC pro-to-cols;Markov mod
+-els;channel uti-liza-tion;generalized slotted-|
 
 \hbox(6.94444+1.94444)x469.75499, glue set - 1.0
 .\tenrm p
@@ -50,162 +32,149 @@ ha pro-to-cols;medium ac-cess con-trol;multiple|
 .etc.
 
 
-Overfull \hbox (12.06549pt too wide) in paragraph at lines 15--27
-\tenrm sion;Prisoner's Dilemma;Stackelberg Game;short-term fairness;slotted-Alo
-ha, doi=10.1109/TNET.2008.925633,|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm s
-.\tenrm i
-.\tenrm o
-.\tenrm n
-.\tenrm ;
-.etc.
-
-
-Overfull \hbox (24.885pt too wide) in paragraph at lines 29--41
-[]\tenrm @ARTICLE6336861, au-thor=Stefanovic, C. and Popovski, P. and Vuko-bra-
-tovic, D., jour-nal=Communications|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm A
-.\tenrm R
-.\kern-0.83334
-.etc.
-
-
-Overfull \hbox (2.41154pt too wide) in paragraph at lines 29--41
-\tenrm nels;frameless ALOHA pro-to-col;iterative belief-propagation de-cod-ing;
-rateless codes;resolution prob-a-bil-ity;slot|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm n
-.\tenrm e
-.\tenrm l
-.\tenrm s
-.\tenrm ;
-.etc.
-
-
-Overfull \hbox (2.52351pt too wide) in paragraph at lines 29--41
-\tenrm ac-cess prob-a-bil-ity;slotted ALOHA;successive in-ter-fer-ence can-cel-
-la-tion;user trans-mis-sions;wireless link;wireless|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm a
-.\tenrm c
-.\discretionary
-..\tenrm -
-.\tenrm c
-.\tenrm e
-.etc.
-
-
-Overfull \hbox (139.71835pt too wide) in paragraph at lines 29--41
-\tenrm works;Random ac-cess schemes;rateless codes;slotted ALOHA;successive in-
-ter-fer-ence can-cel-la-tion, doi=10.1109/LCOMM.2012.101712.121073,|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm w
-.\kern-0.27779
-.\tenrm o
-.\tenrm r
-.\tenrm k
-.etc.
-
-
-Overfull \hbox (3.77367pt too wide) in paragraph at lines 42--51
-\tenrm medium ac-cess in 802.11 based wire-less ad-hoc net-works, year=2000, mo
-nth=, pages=99-106, key-words=IEEE|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm m
-.\tenrm e
-.\tenrm d
-.\tenrm i
-.\tenrm u
-.etc.
-
-
-Overfull \hbox (20.77382pt too wide) in paragraph at lines 42--51
-\tenrm stan-dards;access pro-to-cols;land mo-bile ra-dio;network topol-ogy;queu
-eing the-ory;radio net-works;telecommunication|
+Overfull \hbox (25.31427pt too wide) in paragraph at lines 26--39
+\tenrm state sys-tem;MAC pro-to-cols;Markovian de-ci-sion;Prisoner's Dilemma;St
+ackelberg Game;short-term fairness;slotted-|
 
 \hbox(6.94444+1.94444)x469.75499, glue set - 1.0
 .\tenrm s
 .\tenrm t
 .\tenrm a
-.\tenrm n
+.\tenrm t
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (98.30186pt too wide) in paragraph at lines 40--53
+[]\tenrm @article6336861, Au-thor = Ste-fanovic, C. and Popovski, P. and Vuko-b
+ra-tovic, D., Doi = 10.1109/LCOMM.2012.101712.121073,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (21.3837pt too wide) in paragraph at lines 40--53
+\tenrm scheme;erasure chan-nels;frameless ALOHA pro-to-col;iterative belief-pro
+pagation de-cod-ing;rateless codes;resolution|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm c
+.\kern-0.27779
+.\tenrm h
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (16.07916pt too wide) in paragraph at lines 40--53
+\tenrm prob-a-bil-ity;slot ac-cess prob-a-bil-ity;slotted ALOHA;successive in-t
+er-fer-ence can-cel-la-tion;user trans-mis-sions;wireless|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm r
+.\tenrm o
+.\tenrm b
 .\discretionary
 ..\tenrm -
 .etc.
 
 
-Overfull \hbox (29.54825pt too wide) in paragraph at lines 42--51
-\tenrm cess Con-trol;IEEE 802.11;IEEE 802.11 DFW-MAC;MAC pro-to-col;broadcast c
-han-nel shar-ing;capture ef-fects;dynamic|
+Overfull \hbox (24.99599pt too wide) in paragraph at lines 40--53
+\tenrm link;wireless net-works;Interference;Iterative de-cod-ing;Protocols;Rand
+om me-dia;Throughput;Upper bound;Wireless|
 
 \hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm l
+.\tenrm i
+.\tenrm n
+.\tenrm k
+.\tenrm ;
+.etc.
+
+
+Overfull \hbox (5.99481pt too wide) in paragraph at lines 54--63
+\tenrm MAC;MAC pro-to-col;broadcast chan-nel shar-ing;capture ef-fects;dynamic 
+mul-ti-hop wire-less net-work;fair medium|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm M
+.\tenrm A
+.\kern-0.27779
+.\tenrm C
+.\tenrm ;
+.etc.
+
+
+Overfull \hbox (47.69048pt too wide) in paragraph at lines 54--63
+\tenrm ac-cess;fairness in-dex;fairness prob-lem;hidden ter-mi-nal prob-lem;med
+ium ac-cess con-trol pro-to-col;mobile stations;partially-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm c
+.\discretionary
+..\tenrm -
 .\tenrm c
 .\tenrm e
+.etc.
+
+
+Overfull \hbox (5.2738pt too wide) in paragraph at lines 54--63
+\tenrm based wire-less ad-hoc net-works, Year = 2000, Bdsk-Url-1 = http://dx.do
+i.org/10.1109/MOBHOC.2000.869217 |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm b
+.\tenrm a
+.\tenrm s
+.\tenrm e
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (46.42674pt too wide) in paragraph at lines 64--77
+[]\tenrm @article5340799, Au-thor = Gum-malla, Ajay Chan-dra V. and Limb, John 
+O., Doi = 10.1109/COMST.2000.5340799,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (89.0239pt too wide) in paragraph at lines 64--77
+\tenrm Issn = 1553-877X, Jour-nal = Com-mu-ni-ca-tions Sur-veys Tu-to-ri-als, I
+EEE, Key-words = Ac-cess pro-to-cols;Bandwidth;Communication|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm I
 .\tenrm s
 .\tenrm s
+.\tenrm n
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .etc.
 
 
-Overfull \hbox (6.46815pt too wide) in paragraph at lines 42--51
-\tenrm mul-ti-hop wire-less net-work;fair medium ac-cess;fairness in-dex;fairne
-ss prob-lem;hidden ter-mi-nal prob-lem;medium|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm m
-.\kern-0.27779
-.\tenrm u
-.\tenrm l
-.\discretionary
-..\tenrm -
-.etc.
-
-
-Overfull \hbox (71.19038pt too wide) in paragraph at lines 42--51
-\tenrm works;Access pro-to-cols;Ad hoc net-works;Collision avoid-ance;Intellige
-nt net-works;Media Ac-cess Pro-to-col;Throughput;Wireless|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\tenrm w
-.\kern-0.27779
-.\tenrm o
-.\tenrm r
-.\tenrm k
-.etc.
-
-
-Overfull \hbox (65.57945pt too wide) in paragraph at lines 42--51
-\tenrm LAN;Wireless ap-pli-ca-tion pro-to-col;Wireless com-mu-ni-ca-tion;Wirele
-ss sen-sor net-works, doi=10.1109/MOBHOC.2000.869217, |
+Overfull \hbox (24.19052pt too wide) in paragraph at lines 64--77
+\tenrm ac-cess con-trol pro-to-cols, Vol-ume = 3, Year = 2000, Bdsk-Url-1 = htt
+p://dx.doi.org/10.1109/COMST.2000.5340799 |
 
 \hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm L
-.\tenrm A
-.\tenrm N
-.\tenrm ;
-.\tenrm W
-.etc.
-
-
-Overfull \hbox (3.42664pt too wide) in paragraph at lines 53--65
-[]\tenrm @ARTICLE5340799, au-thor=Gummalla, Ajay Chan-dra V. and Limb, John O.,
- jour-nal=Communications|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm A
-.\tenrm R
-.\kern-0.83334
+.\tenrm a
+.\tenrm c
+.\discretionary
+..\tenrm -
+.\tenrm c
+.\tenrm e
 .etc.
 
 ! Missing $ inserted.
@@ -213,16 +182,16 @@ Overfull \hbox (3.42664pt too wide) in paragraph at lines 53--65
                 $
 <to be read again> 
                    _
-l.71  issue_
-            date = {Oct. 1997},
+l.84 	Issue_
+            Date = {Oct. 1997},
 ? 
 ! Emergency stop.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.71  issue_
-            date = {Oct. 1997},
+l.84 	Issue_
+            Date = {Oct. 1997},
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!
